@@ -42,7 +42,7 @@
             }
 
             .container {
-                height: 95vh;
+                height: 100vh;
                 width: 100vw;
                 display: flex;
                 flex-direction: column;
@@ -61,6 +61,10 @@
 
                 border-radius: 1rem;
                 text-align: center;
+
+                -webkit-box-shadow: 6px 7px 25px 0px rgba(0, 0, 0, 0.19);
+                -moz-box-shadow: 6px 7px 25px 0px rgba(0, 0, 0, 0.19);
+                box-shadow: 6px 7px 25px 0px rgba(0, 0, 0, 0.19);
             }
 
             img {
@@ -85,6 +89,8 @@
             }
 
             .attribution {
+                position: fixed;
+                bottom: 10px;
                 font-size: 11px;
                 text-align: center;
             }
@@ -99,7 +105,7 @@
             <div class="qr-component">
                 <img
                     src="./images/image-qr-code.png"
-                    alt="QR-Code"
+                    alt="QR code to visit frontendmentor.io"
                     style="width: 100%"
                 />
                 <p class="title">
@@ -111,17 +117,18 @@
                     coding skills to the next level
                 </p>
             </div>
-        </div>
 
-        <div class="attribution">
-            Challenge by
-            <a
-                href="https://www.frontendmentor.io?ref=challenge"
-                target="_blank"
-                >Frontend Mentor</a
-            >. Coded by
-            <a href="https://github.com/M-its" target="_black">Mitsrael Souza</a
-            >.
+            <div class="attribution">
+                Challenge by
+                <a
+                    href="https://www.frontendmentor.io?ref=challenge"
+                    target="_blank"
+                    >Frontend Mentor</a
+                >. Coded by
+                <a href="https://github.com/M-its" target="_blank"
+                    >Mitsrael Souza</a
+                >.
+            </div>
         </div>
     </body>
 </html>
